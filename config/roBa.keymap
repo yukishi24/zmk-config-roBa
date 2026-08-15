@@ -80,19 +80,19 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W   &kp E   &kp R                        &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_WIN A  &kp S   &kp D   &kp F                        &kp G        &kp DELETE                         &kp BACKSPACE     &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SQT
-&kp Z           &kp X   &kp C   &kp V                        &kp B        &lt_to_layer_0 4 COLON             &kp SEMICOLON     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&trans          &trans  &trans  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LEFT_CONTROL  &lt 1 ENTER                             &kp CAPSLOCK
+&kp Q                      &kp W   &kp E   &kp R                        &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_WIN A             &kp S   &kp D   &kp F                        &kp G        &kp DELETE                         &mt CAPS SQT      &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT BACKSPACE
+&kp Z                      &kp X   &kp C   &kp V                        &kp B        &lt_to_layer_0 4 COLON             &kp SEMICOLON     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LANGUAGE_1 LANGUAGE_2  &trans  &trans  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LEFT_CONTROL  &lt 1 ENTER                             &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp ESCAPE      &kp F1  &kp F2   &kp F3        &kp F4                                              &kp LEFT_PARENTHESIS  &kp HOME  &kp UP_ARROW    &kp END    &kp RIGHT_PARENTHESIS
-&kp TAB         &kp F5  &kp F6   &kp F7        &kp F8        &kp C_VOLUME_UP               &trans  &kp LEFT_BRACE        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT_BRACE
-&kp LEFT_SHIFT  &kp F9  &kp F10  &kp F11       &kp F12       &mt K_MUTE C_VOLUME_DOWN      &trans  &kp LEFT_BRACKET      &trans    &trans          &trans     &kp RIGHT_BRACKET
-&trans          &trans  &trans   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL              &trans  &trans                                                     &trans
+&kp ESCAPE      &kp F1  &kp F2   &kp F3        &kp F4                                                        &kp LEFT_PARENTHESIS  &kp HOME  &kp UP_ARROW    &kp END    &kp RIGHT_PARENTHESIS
+&kp TAB         &kp F5  &kp F6   &kp F7        &kp F8        &kp C_VOLUME_UP               &kp LESS_THAN     &kp LEFT_BRACE        &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp RIGHT_BRACE
+&kp LEFT_SHIFT  &kp F9  &kp F10  &kp F11       &kp F12       &mt K_MUTE C_VOLUME_DOWN      &kp GREATER_THAN  &kp LEFT_BRACKET      &trans    &trans          &trans     &kp RIGHT_BRACKET
+&trans          &trans  &trans   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL              &trans            &trans                                                     &trans
             >;
         };
 

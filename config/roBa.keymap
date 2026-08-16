@@ -10,6 +10,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -80,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W   &kp E   &kp R                        &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_WIN A             &kp S   &kp D   &kp F                        &kp G        &kp DELETE                         &mt CAPS SQT      &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT BACKSPACE
-&kp Z                      &kp X   &kp C   &kp V                        &kp B        &lt_to_layer_0 4 COLON             &kp SEMICOLON     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LANGUAGE_1 LANGUAGE_2  &trans  &trans  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LEFT_CONTROL  &lt 1 ENTER                             &trans
+&kp Q                      &kp W   &kp E   &kp R             &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_WIN A             &kp S   &kp D   &kp F             &kp G        &kp DELETE                         &mt CAPS SQT      &kp H        &kp J  &kp K      &kp L    &mt RIGHT_SHIFT BACKSPACE
+&lt 4 Z                    &kp X   &kp C   &kp V             &kp B        &kp SINGLE_QUOTE                   &kp SEMICOLON     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LANGUAGE_1 LANGUAGE_2  &trans  &trans  &kp INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp LEFT_CONTROL  &lt 1 ENTER                             &mo 6
             >;
         };
 

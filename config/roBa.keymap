@@ -120,7 +120,7 @@
 &trans          &trans  &kp LC(PAGE_UP)    &kp RC(W)  &trans                      &trans              &trans    &trans    &trans    &trans
 &kp LEFT_SHIFT  &trans  &kp LC(PAGE_DOWN)  &kp LC(T)  &trans  &trans      &trans  &kp RA(LEFT_ARROW)  &mkp MB1  &mkp MB3  &mkp MB2  &kp RA(RIGHT_ARROW)
 &trans          &trans  &trans             &trans     &trans  &trans      &trans  &trans              &trans    &trans    &trans    &trans
-&kp LS(LG(S))   &trans  &trans             &trans     &trans  &trans      &trans  &trans                                            &trans
+&kp LS(LG(S))   &trans  &trans             &trans     &trans  &trans      &trans  &kp LC(R)                                         &trans
             >;
         };
 
